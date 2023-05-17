@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <style>
+        @font-face {
+            font-family: 'Alkhemikal';
+            src: url('alkhemikal.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Alkhemikal', Arial, sans-serif;
+            color: #00ff00;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            padding: 20px;
+            background-color: #000;
+            text-align: center;
+        }
+
+        h1 {
+            color: #00ff00;
+            font-size: 36px;
+            margin-top: 0;
+        }
+
+        #content {
+            padding: 20px;
+            text-align: left; /* Align boxes to the left */
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .box {
+            background-color: black;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .box h2 {
+            color: #00ff00;
+        }
+
+        .box p {
+            color: #00ff00;
+        }
+
+        .center-image {
+            display: block;
+            margin: 0 auto;
+            width: 300px; /* Fixed width for images */
+            height: 400px; /* Fixed height for images */
+            object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+            margin-bottom: 10px;
+        }
+
+        .boxes-container {
+            display: flex;
+            flex-direction: row; /* Align boxes horizontally */
+            justify-content: space-around; /* Distribute space around the boxes */
+            align-items: center; /* Center align vertically */
+        }
+
+        .box-item {
+            /* Remove margin to eliminate gaps between boxes */
+        }
+
+        body {
+            background-image: url('background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /* Style the navigation */
+        nav {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #00ff00;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        nav a:visited {
+            color: purple;
+        }
+    </style>
+</head>
+	<div id="header">
+    	<h1>About</h1>
+    	<nav>
+        	<a href="index.html">Home</a>|
+        	 <a href="category1.html">Occult Omnibus</a>|
+            <a href="category2.html">Chess Attak</a>|
+            <a href="category3.html">Other</a>|
+            <a href="about.html">About</a>
+    	</nav>
+	</div>
+    <div id="content">
+        <div class="boxes-container">
+            <div class="box-item">
+                <div class="box">
+                    <h2>Box 1</h2>
+                    <img class="center-image" src="Apples.jpg" alt="Image 1">
+                    <p>This is Isaac F. He is the coder and brains behind DuelIx Games. He is the whole reason why the games we make exist in the first place!</p>
+                </div>
+            </div>
+            <div class="box-item">
+                <div class="box">
+                    <h2>Box 2</h2>
+                    <img class="center-image" src="Wise.jpg" alt="Image 2">
+                    <p>This is Isaac D. He is the artist and main writer for DuelIx Games. He is the motivation and life behind all the games that have been produced!   </p>
+                </div>
+            </div>
+			<div class
+                <div class="box">
+                    <h2>Box 3</h2>
+                    <img class="center-image" src="JoRo.jpg" alt="Image 3">
+                    <p>This is Aurora. She is the co-writer and glue to the lore behind the games. Without her Isaac D.'s writing would be rambling than cohesive lore.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

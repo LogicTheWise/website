@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Category 3 - Other Games</title>
+    <style>
+        @font-face {
+            font-family: 'Alkhemikal';
+            src: url('alkhemikal.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Alkhemikal', Arial, sans-serif;
+            color: #00ff00; /* Updated text color to #00ff00 (green) */
+            margin: 0;
+            padding: 0;
+            background-image: url('Background.png');
+            background-size: 100% auto; /* Adjusted background size */
+            background-repeat: no-repeat;
+        }
+        
+        /* Define your CSS styles here */
+        /* e.g., navigation bar, box styles, etc. */
+        
+        /* Example styles for category page */
+        #header {
+            padding: 20px;
+            background-color: #000;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #00ff00; /* Updated text color to #00ff00 (green) */
+            font-size: 36px;
+            margin-top: 0;
+        }
+        
+        #content {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        p {
+            line-height: 1.5;
+        }
+        
+        /* Additional styles for black and green theme */
+        .box {
+            background-color: black; /* Set box background color to black */
+            padding: 20px;
+            margin-bottom: 20px;
+            max-width: 600px; /* Limit the width of the box */
+            overflow: auto; /* Add scrolling if necessary */
+        }
+        
+        .box h2 {
+            color: #00ff00; /* Set box title color to #00ff00 (green) */
+        }
+        
+        .box p {
+            color: #00ff00; /* Set box text color to #00ff00 (green) */
+        }
+        
+        .center-image {
+            display: block;
+            margin: 0 auto; /* Center align the image horizontally */
+            max-width: 100%;
+            margin-bottom: 10px; /* Add margin below each image */
+        }
+        
+        .boxes-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center align the boxes vertically */
+            justify-content: center; /* Center align the boxes horizontally */
+            height: 100vh; /* Set the height of the container to full viewport height */
+        }
+        
+        .box-item {
+            margin: 10px;
+        }
+        
+        .play-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #00ff00; /* Set button background color to green */
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+        }
+        
+        .play-button-icon {
+            color: black; /* Set icon color to black */
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Other</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="category1.html">Occult Omnibus</a> |
+            <a href="category2.html">Chess Attak</a> |
+            <a href="category3.html">Other</a> |
+            <a href="about.html">About</a>
+        </nav>
+    </div>
+    
+    <div id="content">
+        <div class="boxes-container">
+            <div class="box-item">
+                <div class="box">
+                    <h2>AppleLogic</h2>
+                    <img class="center-image" src="AppleLogic.gif" alt="Image 1">
+                    <p>There has been a ton of projects that DuelIx has worked on, but let's look at DuelIx Games's Origins
+                    Originally DuelIx Games was known as AppleLogic. A modding team for a game called Inscryption
+                    It was created on November 29th, 2021. Eventually, when Isaac D. and Isaac F. were both done with modding, they looked at a new horizon: making their own video games.</p>
+                </div>
+            </div>
+            <div class="box-item">
+                <div class="box">
+                    <h2>LogicPack (People Pack)</h2>
+                    <img class="center-image" src="Card.gif" alt="Image 2">
+                    <p>This was the first mod that Isaac F. and Isaac D. ever worked on. The idea was proposed by Isaac D. in an Inscryption modding server. The premise was simple: add People to the game. And that is exactly what Isaac F. did.</p>
+                </div>
+            </div>
+            <div class="box-item">
+                <div class="box">
+                    <h2>Music Samples</h2>
+                    <div>
+                        <audio src="music_sample1.mp3" controls></audio>
+                        <button class="play-button"><i class="play-button-icon">&#9658;</i></button>
+                    </div>
+                    <div>
+                        <audio src="music_sample2.mp3" controls></audio>
+                        <button class="play-button"><i class="play-button-icon">&#9658;</i></button>
+                    </div>
+                    <div>
+                        <audio src="music_sample3.mp3" controls></audio>
+                        <button class="play-button"><i class="play-button-icon">&#9658;</i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Category 3 - Other Games</title>
+    <style>
+        @font-face {
+            font-family: 'Alkhemikal';
+            src: url('alkhemikal.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Alkhemikal', Arial, sans-serif;
+            color: #00ff00; /* Updated text color to #00ff00 (green) */
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Define your CSS styles here */
+        /* e.g., navigation bar, box styles, etc. */
+        
+        /* Example styles for category page */
+        #header {
+            padding: 20px;
+            background-color: #000;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #00ff00; /* Updated text color to #00ff00 (green) */
+            font-size: 36px;
+            margin-top: 0;
+        }
+        
+        #content {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        p {
+            line-height: 1.5;
+        }
+        
+        /* Additional styles for black and green theme */
+        .box {
+            background-color: black; /* Set box background color to black */
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .box h2 {
+            color: #00ff00; /* Set box title color to #00ff00 (green) */
+        }
+        
+        .box p {
+            color: #00ff00; /* Set box text color to #00ff00 (green) */
+        }
+        
+        .center-image {
+            display: block;
+            margin: 0 auto; /* Center align the image horizontally */
+            max-width: 100%;
+            margin-bottom: 10px; /* Add margin below each image */
+        }
+        
+        .boxes-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        
+        .box-item {
+            margin: 10px;
+        }
+        
+        /* Set background image */
+        body {
+            background-image: url('Background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Category 3 - Other Games</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="category1.html">Category 1</a> |
+            <a href="category2.html">Category 2</a> |
+            <a href="category3.html">Category 3</a> |
+            <a href="about.html">About</a>
+        </nav>
+    </div>
+    
+    <div id="content">
+        <div class="boxes-container">
+            <div class="box-item">
+                <div class="box">
+                    <h2>Item 1</h2>
+                    <img class="center-image" src="image1.png" alt="Image 1">
+                    <p>Description for item 1.</p>
+                </div>
+            </div>
+            <div class="box-item">
+                <div class="box">
+                    <h2>Item 2</h2>
+                    <img class="center-image" src="image2.png" alt="Image 2">
+                    <p>Description for item 2.</p>
+                </div>
+				<div class="box-item">
+    <div class="box">
+        <h2>Item 3</h2>
+        <img class="center-image" src="image3.png" alt="Image 3">
+        <p>Description for item 3.</p>
+    </div>
+</div>
+
